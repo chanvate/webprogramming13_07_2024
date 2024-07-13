@@ -1,0 +1,6 @@
+.textmsg {
+    color: yellow;
+    background-color: navy;
+    border: 4px solid navy;
+    box-shadow: 5px 5px 1px 1px #dbd7d7;
+}

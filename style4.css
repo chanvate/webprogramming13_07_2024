@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: red;
+    color: aliceblue;
+    height: 60px;
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li {
+    margin-right: 1rem;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header {
+    height: 300px;
+    border: 1px solid black;
+    background: url(https://plus.unsplash.com/premium_photo-1679784157152-87caa598bacb?q=80&w=2150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header section {
+    /* border: 1px solid white; */
+    width: 400px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: white;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-family: tahoma;
+}
+
+header p {
+    margin: 1rem 0;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-family: tahoma;
+}
+
+header a {
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-family: tahoma;
+    text-decoration: none;
+    margin: 1rem 0;
+    line-height: 1.5rem; 
+}
